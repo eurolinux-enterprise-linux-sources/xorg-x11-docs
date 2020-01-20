@@ -3,7 +3,7 @@
 Summary: X.Org X11 documentation
 Name: xorg-x11-docs
 Version: 1.6
-Release: 6%{?dist}
+Release: 7%{?dist}
 License: MIT
 Group: Documentation
 URL: http://www.x.org
@@ -56,6 +56,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man7/Xsecurity.7*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.6-7
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.6-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
